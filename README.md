@@ -7,7 +7,7 @@
 ## Introduction
 
 Ruby provides us with a large variety of methods for working with `Arrays`.
-These methods are called [Enumerable]s. Enumerables help us do very common
+These methods are called [Enumerable]s. `Enumerable`s help us do very common
 operations on `Arrays`: see whether one of the elements matches a test, see
 whether all of the elements match a test, produce a new `Array` of elements
 that matched some test, create a new `Array` that's been sorted, etc.
