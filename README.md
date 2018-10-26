@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Assess knowledge of enumerables
+- Assess knowledge of `Enumerable`s
 
 ## Introduction
 
@@ -14,20 +14,20 @@ that matched some test, create a new `Array` that's been sorted, etc.
 
 We can find a list of them in Ruby's [Enumerable] documentation.
 
-Every `Enumerable` has a **specific** task. While it is sometimes possible to use
-`Enumerable`s interchangeably, choosing the _correct_ `Enumerable` will lead
+Every `Enumerable` has a **specific** task. While it is sometimes possible to
+use `Enumerable`s interchangeably, choosing the _correct_ `Enumerable` will lead
 to code that is easier to read and understand.
 
-Given the following `Array`, choose the appropriate `Enumerable` for the specific
-task in each question. Feel free to look at the documentation to find the right
-answer.
+Given the following `Array`, choose the appropriate `Enumerable` for the
+specific task in each question. Feel free to look at the documentation to find
+the right answer.
 
 ```ruby
 array = ["And", "here", "were", "forests", "ancient", "as", "the", "hills,"]
 ```
 
-**Question 1**: If we wanted to produce a new `Array` where the characters of each
-string are reversed, which `Enumerable` would be best to use?
+**Question 1**: If we wanted to produce a new `Array` where the characters of
+each string are reversed, which `Enumerable` would be best to use?
 
 **Question 2**: If we wanted to confirm, TRUE or FALSE, whether at least one
 `String` in our `Array` began with the letter 'c', which `Enumerable` should we
@@ -51,4 +51,4 @@ duplicates from an `Array`?
 **Question 8**: What if we wanted an `Enumerable` that iterated over the whole
 `Array` as many times as we want?
 
-[Enumerable]: https://ruby-doc.org/core-2.3.1/Enumerable.html
+[enumerable]: https://ruby-doc.org/core-2.3.1/Enumerable.html
